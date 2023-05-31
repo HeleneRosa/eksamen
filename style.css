@@ -1,0 +1,139 @@
+body{
+    margin: 0%;
+}
+nav img{
+    width: 100px;
+}
+.logoogtekst{
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    
+}
+.burger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    float: right;
+    margin-top: 35px;
+
+  }
+.burger-menu{
+    border: none;
+    background: none;
+}
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    margin: 2px 0;
+  }
+  
+  .burgerbutton{
+    width: 80%;
+    height: 150px;
+    background-color: white;
+    border: #000 solid;
+    margin: auto;
+  }
+  .burgerbutton a{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+  }
+  .hidden{
+    display: none;
+  }
+  h1{
+    text-align: center;
+    margin-top: 45px;
+
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  h3{
+    margin-bottom: -15px;
+    margin: 10px;
+  }
+  .del1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 10px;
+  }
+  .del1 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 14px;
+  }
+  .del1 p{
+    font-size: 0.8em;
+  }
+
+  .del2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 10px;
+  }
+  .del2 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 14px;
+  }
+  .del2 p{
+    font-size: 0.8em;
+  }
+  h4{
+    margin-bottom: -15px;
+    margin: 10px;
+    }
+  .room1{
+    display: block;
+    height: 68px;
+    width: 120px;
+    background-image: url(billeder/1949_1955.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+
+  }
+  .room2{
+    display: block;
+    height: 68px;
+    width: 120px;
+    background-image: url(billeder/1973_1976.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+
+  }
+  .flex{
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+  * {box-sizing:border-box}
+
+  footer{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    
+    
+
+  }
+  footer img{
+    width: 40px;
+  }
+
