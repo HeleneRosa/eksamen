@@ -1,5 +1,16 @@
+@font-face {
+    font-family: helvetica-regular;
+    src: url(regular.otf);
+}
+
+@font-face {
+    font-family: helvetica-bold;
+    src: url(bold.ttf);
+}
+
 body{
     margin: 0%;
+    font-family: helvetica-regular;
 }
 nav img{
     width: 100px;
@@ -51,16 +62,19 @@ nav img{
   h1{
     text-align: center;
     margin-top: 45px;
+    font-family: helvetica-bold;
 
   }
 
   h2{
     text-align: center;
+    font-family: helvetica-bold;
   }
 
   h3{
     margin-bottom: -15px;
     margin: 10px;
+    font-family: helvetica-bold;
   }
   .del1{
     display: flex;
@@ -94,6 +108,7 @@ nav img{
   h4{
     margin-bottom: -15px;
     margin: 10px;
+    font-family: helvetica-bold;
     }
   .room1{
     display: block;
@@ -124,15 +139,21 @@ nav img{
   * {box-sizing:border-box}
 
   footer{
-    background-color: yellow;
+    background-color: #a9af74;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-top: 60px;
-    
-    
 
   }
+  footer p {
+    margin: 8px;
+  }
+footer p:first-child{
+    font-family: helvetica-bold;
+    font-size: 1.8em
+  }
+
   footer img{
     width: 40px;
   }

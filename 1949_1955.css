@@ -1,3 +1,18 @@
+@font-face {
+    font-family: helvetica-regular;
+    src: url(regular.otf);
+}
+
+@font-face {
+    font-family: helvetica-bold;
+    src: url(bold.ttf);
+}
+
+body{
+    margin: 0%;
+    font-family: helvetica-regular;
+}
+
 nav img{
     width: 100px;
 }
@@ -48,12 +63,24 @@ nav img{
   h1{
     text-align: center;
     margin-top: 45px;
+    font-family: helvetica-bold;
 
   }
 
   h2{
     text-align: center;
+    font-family: helvetica-bold;
   }
+  .del1{
+    margin: 10px;
+    
+  }
+  .del2{
+    margin: 10px;
+    
+  }
+ 
+ 
 
   /* Slideshow */
 .slideshow-boks {
@@ -62,7 +89,7 @@ nav img{
     margin: auto;
   }
   
-  /* Hide the images by default */
+  /* gem billederne by default */
   .mySlides {
     display: none;
   }
@@ -89,23 +116,23 @@ nav img{
     border-radius: 3px 0 0 3px;
   }
   
-  /* On hover, add a black background color with a little bit see-through */
+  /* baggrunden på pilene */
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
   
-  /* Caption text */
+  /* tekst på billederne */
   .text {
-    color: #000;
-    font-size: 15px;
+    font-size: 20px;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
     width: 100%;
     text-align: center;
+    font-family: helvetica-bold;
   }
   
-  /* Number text (1/3 etc) */
+  /* numrene på billederne */
   .numbertext {
     color: #f2f2f2;
     font-size: 12px;
@@ -114,7 +141,7 @@ nav img{
     top: 0;
   }
   
-  /* The dots/bullets/indicators */
+  /* prikkerne i bunden*/
   .dot {
     cursor: pointer;
     height: 15px;
@@ -139,5 +166,45 @@ nav img{
   @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
+  }
+
+  h3{
+    margin-bottom: -15px;
+    margin: 10px;
+    font-family: helvetica-bold;
+    margin-top: 70px;
+  }
+  .vigtig p{
+    margin: 10px;
+
+  }
+
+  h4{
+    margin: 10px;
+    font-family: helvetica-bold;
+    margin-top: 40px;
+  }
+    .yderligere p{
+        margin: 10px;
+    }
+
+  footer{
+    background-color: #a9af74;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+
+  }
+  footer p {
+    margin: 8px;
+  }
+footer p:first-child{
+    font-family: helvetica-bold;
+    font-size: 1.8em
+  }
+
+  footer img{
+    width: 40px;
   }
   

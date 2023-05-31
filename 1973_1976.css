@@ -1,0 +1,213 @@
+@font-face {
+    font-family: helvetica-regular;
+    src: url(regular.otf);
+}
+
+@font-face {
+    font-family: helvetica-bold;
+    src: url(bold.ttf);
+}
+
+body{
+    margin: 0%;
+    font-family: helvetica-regular;
+}
+
+nav img{
+    width: 100px;
+}
+.logoogtekst{
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    
+}
+.burger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    float: right;
+    margin-top: 35px;
+
+  }
+.burger-menu{
+    border: none;
+    background: none;
+}
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    margin: 2px 0;
+  }
+  
+  .burgerbutton{
+    width: 80%;
+    height: 150px;
+    background-color: white;
+    border: #000 solid;
+    margin: auto;
+  }
+  .burgerbutton a{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+  }
+  .hidden{
+    display: none;
+  }
+  h1{
+    text-align: center;
+    margin-top: 45px;
+    font-family: helvetica-bold;
+
+  }
+
+  h2{
+    text-align: center;
+    font-family: helvetica-bold;
+  }
+  .del1{
+    margin: 10px;
+    margin-top: -40px;
+  }
+  
+
+  /* Slideshow */
+.slideshow-boks {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* gem billederne by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Pile */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* baggrunden på pilene */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* tekst på billederne */
+  .text {
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    font-family: helvetica-bold;
+  }
+  
+  /* numrene på billederne */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* prikkerne i bunden*/
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  h3{
+    margin-bottom: -15px;
+    margin: 10px;
+    font-family: helvetica-bold;
+    margin-top: 70px;
+  }
+  .vigtig p{
+    margin: 10px;
+
+  }
+
+  h4{
+    margin: 10px;
+    font-family: helvetica-bold;
+    margin-top: 40px;
+  }
+    .yderligere p{
+        margin: 10px;
+    }
+
+  footer{
+    background-color: #a9af74;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+
+  }
+
+  footer{
+    background-color: #a9af74;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+
+  }
+  footer p {
+    margin: 8px;
+  }
+footer p:first-child{
+    font-family: helvetica-bold;
+    font-size: 1.8em
+  }
+
+  footer img{
+    width: 40px;
+  }
